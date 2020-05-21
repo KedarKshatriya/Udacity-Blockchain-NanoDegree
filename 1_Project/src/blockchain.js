@@ -117,7 +117,7 @@ class Blockchain {
         return new Promise(async (resolve, reject) => {
             let t = parseInt(message.split(':')[1]);
             let currentTime = parseInt(new Date().getTime().toString().slice(0, -3));
-            if (currentTime - t < 300) {
+            if (currentTime - t < 300000) {
                 if (bitcoinMessage.verify(message, address, signature)) {
                     let block = self._addBlock(new BlockClass.Block({owner: address, data: star}));
                     resolve(block);
@@ -208,7 +208,7 @@ class Blockchain {
         return new Promise(async (resolve, reject) => {
             let prevBlockHash = null;
             for (let i = 0; i < self.chain.length; i++) {
-               let isValid = self.chain[i].validate();
+               let isValid = await self.chain[i].validate();
                if (!isValid || self.chain[i].previousBlockHash !== prevBlockHash) {
                    errorLog.push({block: self.chain[i], error: 'Error in block'});
                }
