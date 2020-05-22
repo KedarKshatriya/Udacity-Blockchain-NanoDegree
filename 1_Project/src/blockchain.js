@@ -212,7 +212,7 @@ class Blockchain {
                if (!isValid || self.chain[i].previousBlockHash !== prevBlockHash) {
                    errorLog.push({block: self.chain[i], error: 'Error in block'});
                }
-               prevBlockHash =  self.chain[i].previousBlockHash;
+               prevBlockHash =  self.chain[i].hash;
             }
             resolve(errorLog);
         });
