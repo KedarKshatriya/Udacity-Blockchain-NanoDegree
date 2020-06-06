@@ -6,10 +6,6 @@ Contract Address: 0x2aFf78828Cf3149A020999B7529734769d40Bf15
 
 link: https://rinkeby.etherscan.io/address/0x2aFf78828Cf3149A020999B7529734769d40Bf15
 
-web3: 1.2.1
-Truffle: 5.0.5
-node: 9.11.2
-
 
 ![contract address](images/etherscan.png)
 
@@ -22,6 +18,12 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
+
+web3: 1.2.1
+Truffle: 5.0.5
+node: 9.11.2
+
+
 Launch Ganache:
 
 
