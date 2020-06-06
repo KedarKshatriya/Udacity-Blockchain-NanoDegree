@@ -2,14 +2,21 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
-Contract Address: 0x2aFf78828Cf3149A020999B7529734769d40Bf15
+* Contract Address: 0x2aFf78828Cf3149A020999B7529734769d40Bf15
 
 link: https://rinkeby.etherscan.io/address/0x2aFf78828Cf3149A020999B7529734769d40Bf15
 
+<p align="center">
+<br>
+<img src="images/etherscan.png" width=500 >
+</p>
 
-![contract address](images/etherscan.png)
+<p align="center">
+Farm Details
+<br>
+<img src="images/farm.png" width=500 >
+</p>
 
-![farm details](images/farm.png)
 
 ## Getting Started
 
@@ -38,7 +45,12 @@ truffle compile
 
 Your terminal should look something like this:
 
-![truffle compile](images/truffle_compile.png)
+<p align="center">
+<br>
+<img src="images/truffle_compile.png" width=500 >
+</p>
+
+
 
 This will create the smart contract artifacts in folder ```build\contracts```.
 
@@ -50,7 +62,11 @@ truffle migrate
 
 Your terminal should look something like this:
 
-![truffle migrate](images/truffle_migrate.png)
+<p align="center">
+<br>
+<img src="images/truffle_migrate.png" width=500 >
+</p>
+
 
 Test smart contracts:
 
@@ -59,8 +75,10 @@ truffle test
 ```
 
 All 10 tests should pass.
-
-![truffle test](images/truffle_test.png)
+<p align="center">
+<br>
+<img src="images/truffle_test.png" width=500 >
+</p>
 
 In a separate terminal window, launch the DApp:
 
@@ -83,7 +101,7 @@ Sequence:
 <p align="center">
 State;
 <br>
-<img src="UML/state.png" height= 350>
+<img src="UML/state.png" height= 500>
 </p>
 <p align="center">
 Data:
