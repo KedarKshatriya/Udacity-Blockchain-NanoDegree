@@ -8,13 +8,13 @@ link: https://rinkeby.etherscan.io/address/0x2aFf78828Cf3149A020999B7529734769d4
 
 <p align="center">
 <br>
-<img src="images/etherscan.png" width=500 >
+<img src="images/etherscan.png" width=800 >
 </p>
 
 <p align="center">
 Farm Details
 <br>
-<img src="images/farm.png" width=500 >
+<img src="images/farm.png" width=800 >
 </p>
 
 
@@ -35,8 +35,10 @@ Please make sure you've already installed ganache-cli, Truffle and enabled MetaM
 
 Your window should look something like this:
 
-![ganache UI](images/ganache-cli.png)
-
+<p align="center">
+<br>
+<img src="images/ganache-cli.png" width=800 >
+</p>
 In a terminal window, Compile smart contracts:
 
 ```
@@ -47,7 +49,7 @@ Your terminal should look something like this:
 
 <p align="center">
 <br>
-<img src="images/truffle_compile.png" width=500 >
+<img src="images/truffle_compile.png" width=800 >
 </p>
 
 
@@ -64,7 +66,7 @@ Your terminal should look something like this:
 
 <p align="center">
 <br>
-<img src="images/truffle_migrate.png" width=500 >
+<img src="images/truffle_migrate.png" width=800 >
 </p>
 
 
@@ -77,7 +79,7 @@ truffle test
 All 10 tests should pass.
 <p align="center">
 <br>
-<img src="images/truffle_test.png" width=500 >
+<img src="images/truffle_test.png" width=800 >
 </p>
 
 In a separate terminal window, launch the DApp:
