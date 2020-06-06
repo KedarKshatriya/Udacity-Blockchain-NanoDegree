@@ -19,13 +19,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
-web3: 1.2.1
-Truffle: 5.0.5
-node: 9.11.2
+* web3: 1.2.1
+* Truffle: 5.0.5
+* node: 9.11.2
 
 
-Launch Ganache:
-
+## Launch Ganache:
 
 Your window should look something like this:
 
@@ -69,12 +68,28 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
-##UML Documents
-![activity](UML/activity.png)
-![sequence](UML/sequence.png)
-![state](UML/state.png)
-![data model](UML/data-model.png)
+## UML Documents
 
+<p align="center">
+Activity:
+<br>
+<img src="UML/activity.png" width=500 >
+</p>
+<p align="center">
+Sequence:
+<br>
+<img src="UML/sequence.png" width=500 >
+</p>
+<p align="center">
+State;
+<br>
+<img src="UML/state.png" height= 350>
+</p>
+<p align="center">
+Data:
+<br>
+<img src="UML/data-model.png" width=500 >
+</p>
 ## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
