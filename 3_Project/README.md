@@ -49,7 +49,7 @@ Your terminal should look something like this:
 
 <p align="center">
 <br>
-<img src="images/truffle_compile.png" width=900 >
+<img src="images/truffle_compile.png" width=1000 >
 </p>
 
 
@@ -66,7 +66,7 @@ Your terminal should look something like this:
 
 <p align="center">
 <br>
-<img src="images/truffle_migrate.png" width=900 >
+<img src="images/truffle_migrate.png" width=1000 >
 </p>
 
 
@@ -79,7 +79,7 @@ truffle test
 All 10 tests should pass.
 <p align="center">
 <br>
-<img src="images/truffle_test.png" width=900 >
+<img src="images/truffle_test.png" width=1000 >
 </p>
 
 In a separate terminal window, launch the DApp:
